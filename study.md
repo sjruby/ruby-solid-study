@@ -228,7 +228,8 @@ List some criteria for well-designed code. Contrast this list with indicators
 of poor design.
 
 ```md
-<!-- your answer here -->
+If each method has no more than 5 lines and classes no more than 200 it's looking good
+Which is basically a way of trying to box yourself into having each class/method being responsiable for only one thing.
 ```
 
 ## Design Heuristics
@@ -237,7 +238,7 @@ Are heuristics the same thing as rules? What are some design heuristics you can
 use to improve the design of your code?
 
 ```md
-<!-- your answer here -->
+No they aren't relaly rules but are good indicators of good v. bad code.  The examples above about 200 lines of code for a class is a heuristic.
 ```
 
 ## Refactorings
@@ -245,5 +246,6 @@ use to improve the design of your code?
 Describe some common, named refactorings you can use to approach a good design.
 
 ```md
-<!-- your answer here -->
+Taking methods and classes out, I know inside of my game project that woudl be the biggest/best thing I could do to refactor.
+I have a lot of repetitive code stuck inside of methods that if I tried to map out I coudl reduce the lines of code dramatically.
 ```
